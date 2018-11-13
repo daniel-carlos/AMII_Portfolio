@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portifólio</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/styles.css" />
+    <script src="jquery.js"></script>
+    <script src="scripts/postLoader.js"></script>
+</head>
+
+<body>
+    <header class="center">
+        <div class="header-bg-container">
+            <img class="header-bg" src="img/daniel3.png">
+        </div>
+        <div class="header-text-container">
+            <h1 class="header-title"> Daniel Carlos</h1>
+        </div>
+    </header>
+
+    <div class="menu-bar">
+        <ul>
+            <li ><a class="effect" href="index.html">Home</a></li>
+            <li><a class="effect" href="sobre.html">Sobre</a></li>
+            <li><a class="effect" href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+
+    <main id="blog-main-container">
+        <div id="blog-header">
+            <h2>Projetos</h2>
+        </div>
+
+        <div id="blog-content"></div>
+        
+        <div id="post003">
+            <script>
+                loadPost("assets/posts/post3.html", "#post003")
+            </script>
+        </div>
+        <div id="post002">
+            <script>
+                loadPost("assets/posts/post2.html", "#post002")
+            </script>
+        </div>
+        <div id="post001">
+            <script>
+                loadPost("assets/posts/post1.html", "#post001")
+            </script>
+        </div>
+
+    </main>
+</body>
+
+</html>
