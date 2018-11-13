@@ -1,0 +1,157 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+body{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+}
+
+header{
+    background-color: #393c44;
+    text-align: center;
+    color: #7da5d8;
+    background: url("../img/paper.png") repeat center;
+}
+
+.header-bg-container{
+    justify-items: center;
+}
+
+.header-bg{
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-text-container{
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #616fa9;
+}
+
+.header-text-container h1{
+    align-content: center;
+    margin: 0px;
+    padding: 0px
+}
+
+.header-title{
+    left: auto;
+    font-size: 55px;
+    color: #030304
+}
+
+.center {
+    margin: auto;
+}
+
+#options-container{
+    background-color: #848556;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    min-width: 640px;
+}
+
+.option-card{
+    background-color: aquamarine;
+    height: 200px;
+    width: 100%;
+    min-width: 300px;
+    margin: 10px;
+}
+
+#blog-main-container{
+    padding:  10px 20px 10px 20px;
+    background-color: #454579;
+}
+
+#sobre-main-container{
+    padding:  10px 20px 10px 20px;
+    background-color: #454579;
+    padding-left: 100px;
+}
+
+#sobre-main-container input{
+    width: 300px;
+}
+
+#sobre-main-container textarea{
+    width: 300px;
+}
+
+#sobre-main-container button{
+    width: 100px;
+    height: 30px;
+}
+
+.blog-post-card{
+    min-height: 200px;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: lightgray;
+}
+
+.blog-post-card h2{
+    margin: 0px 0px 10px 0px;
+    background-color: #7da5d8;
+    padding: 10px;
+}
+
+.blog-post-card p{
+    margin: 0px 0px 0px 0px;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.menu-bar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: auto;
+    align-self: center;
+    padding: 0;
+    overflow: hidden;
+    background-color: #030304;
+}
+
+.menu-bar li {
+    float: left;
+    width: 33%;
+}
+
+.menu-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+    border-bottom: 8px solid;
+    border-color: black;
+}
+
+
+
+.menu-bar li a:hover {
+    border-bottom: 30 solid;
+    border-color: #7da5d8;
+}
+
+.main-sobre{
+    background-color: lightgray;
+    padding: 15px;
+    
+}
